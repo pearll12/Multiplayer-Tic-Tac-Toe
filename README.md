@@ -21,7 +21,11 @@ This is a multiplayer Tic Tac Toe game built using Socket.io. The game allows tw
 1. Start the server:
 
     ```bash
-    npm start
+    npx nodemon server.js
+    ```
+    ```bash
+    npm run dev
     ```
 
 2. Open your browser and navigate to `http://localhost:5174` to start the game.
+
