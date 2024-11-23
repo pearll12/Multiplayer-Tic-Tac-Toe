@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.water-background {
+  background-color: #4b495f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-heading {
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+.squares-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.move-detection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+.left,
+.right {
+  background-color: #4b495f;
+  height: 50px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: 700;
+}
+.left {
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.right {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.playOnline {
+  background-color: yellow;
+  margin: auto;
+  height: 70px;
+  width: 30vb;
+  font-size: 40px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(66, 9, 9);
+  margin-top: 20vh;
+  cursor: pointer;
+}
+
+.waiting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  font-weight: bold;
+  height: 100vh;
+}
+
+.current-move-circle {
+  background-color: #dd7f9f !important;
+}
+.current-move-cross {
+  background-color: #7ba5c2 !important;
+}

@@ -1,0 +1,25 @@
+.square {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 5px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+.not-allowed {
+  cursor: not-allowed !important;
+}
+
+.circle-won {
+  background-color: #dd7f9f;
+}
+
+.cross-won {
+  background-color: #7ba5c2;
+}
